@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 function AppSideBar() {
   return (
-    <div className=" sidebar p-2">''
+    <div className=" sidebar p-2">
       {/* <div className="m-2 ">
         <span className="brand-name fs-4">Zack</span>
       </div>
