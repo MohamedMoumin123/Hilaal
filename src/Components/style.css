@@ -18,3 +18,27 @@
     font-weight: bold;
     font-size: 25px;
 }
+
+
+
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa; /* Adjust as necessary */
+    transition: transform 0.3s ease;
+  }
+  
+  @media (max-width: 1024px) {
+    .sidebar {
+      position: fixed;
+      height: 100vh;
+      transform: translateX(-100%);
+      z-index: 40;
+    }
+  
+    .sidebar.block {
+      transform: translateX(0);
+    }
+  }
+
+
+  
